@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main () {
+  cout << "Hello! My name is Sandi. What is your name?\n\n";
+  
+  string userName = "";
+  cin >> userName;
+  
+  cout << "Hello, " + userName + "! How are you doing?\n\n";
+  
+  string userState = "";
+  cin >> userState;
+  
+  cout << "Well, it was nice chatting with you. I hope to see you again sometime.";
+  
+  return 0;
+}
